@@ -1,75 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Livros</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-</head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Livros</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+      
 <body>
-    <div id="cabeçalho">
-        <nav>
-            <div class="Logo"> 
-                <span>Imperium books</span>
-            </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
-        </nav>
-    </div>
- <div class="catalogo">
-        <div>
-           <p> <img src="./catalogo/a arte da guerra.jpg" alt="A arte da guerra"></p>
-           <h1>Arte da guerra</h1>
-           <button>compre agora!</button>
-           <button>saiba mais </button>
-        </div>
-        <div> 
-          <p> <img src="./catalogo/como fazer amigos.png" alt="Como Fazer Amigos e Influenciar Pessoas"></p>
-          <h1>Como Fazer Amigos e Influenciar Pessoas</h1>
-          <button>compre agora!</button>
-          <button>saiba mais </button>
-        </div>
-        <div>
-           <p> <img src="./catalogo/codigo da vinci.jpg" alt="Codigo da vinci"></p>
-           <h1>Codigo da Vinci</h1>
-           <button>compre agora!</button>
-           <button>saiba mais </button>
-        </div>
-        <div>
-            <p> <img src="./catalogo/a arte da sedução.jpg" alt="Arte da sedução"></p>
-            <h1>Arte da sedução</h1>
-            <button>compre agora!</button>
-            <button>saiba mais </button>
+   <div id="cabeçalho">
+      <nav>
+         <div class="Logo">
+            <h1 id="marca">Imperium books</h1> 
+            
          </div>
-         <div>
-            <p> <img src="./catalogo/A Metamorfose.jpg" alt="A Metamorfose"></p>
-            <h1>A Metamorfose</h1>
-            <button>compre agora!</button>
-            <button>saiba mais </button>
-         </div>
-         <div>
-            <p> <img src="./catalogo/O Principe.jpg" alt="O Principe"></p>
-            <h1>O Principe</h1>
-            <button>compre agora!</button>
-            <button>saiba mais </button>
-         </div>
-         <div>
-            <p> <img src="./catalogo/O Lobo de Wall Street.jpg" alt="O Lobo de WallStreet"></p>
-            <h1>O Lobo de WallStreet</h1>
-            <button>compre agora!</button>
-            <button>saiba mais </button>
-         </div>
-         <div>
-            <p> <img src="./catalogo/ohobbit.jpg" alt="O HOBBIT"></p>
-            <h1>O Hobbit</h1>
-            <button>compre agora!</button>
-            <button>saiba mais </button>
-         </div>
-</div>
+         <ul>
+           <li><a href="#">Home</a></li>
+            <li><a href="#">gêneros</a></li>
+         </ul>
+         <img  class="lupa" src="buttons/lupa.png" alt="lupinha">
+      </nav>
+      <div>
+       <h2 id="texto-titulo">Um lugar para encontrar variedades infinitas de livros</h2>
+      </div>
+   </div>
+   <div class="catalogo">
+      <div>
+         <p> <img src="./catalogo/a arte da guerra.jpg" alt="A arte da guerra"></p>
+         <h1>Arte da guerra</h1>
+         <h3>19,90$</h3>
+         <button>compre agora</button>
+         <button>saiba mais </button>
+      </div>
+      <div>
+         <p> <img src="./catalogo/como fazer amigos.png" alt="Como Fazer Amigos e Influenciar Pessoas"></p>
+         <h1>Como Fazer Amigos e Influenciar Pessoas</h1>
+         <h3>15,00$</h3>
+         <button>compre agora!</button>
+         <button>saiba mais </button>
+      </div>
+      <div>
+         <p> <img src="./catalogo/codigo da vinci.jpg" alt="Codigo da vinci"></p>
+         <h1>Codigo da Vinci</h1>
+         <h3>19,90$</h3>
+         <button>compre agora!</button>
+         <button>saiba mais </button>
+      </div>
+      <div>
+         <p> <img src="./catalogo/A Metamorfose.jpg" alt="A Metamorfose"></p>
+         <h1>A Metamorfose</h1>
+         <h3>18,90$</h3>
+         <button>compre agora!</button>
+         <button>saiba mais </button>
+      </div>
+      <div>
+         <p> <img src="./catalogo/O Principe.jpg" alt="O Principe"></p>
+         <h1>O Principe</h1>
+         <h3>34,99$</h3>
+         <button>compre agora!</button>
+         <button>saiba mais </button>
+      </div>
+      <div>
+         <p> <img src="./catalogo/O Lobo de Wall Street.jpg" alt="O Lobo de WallStreet"></p>
+         <h1>O Lobo de WallStreet</h1>
+         <h3>29,90$</h3>
+         <button>compre agora!</button>
+         <button>saiba mais </button>
+      </div>
+      <div>
+         <p> <img src="./catalogo/ohobbit.jpg" alt="O HOBBIT"></p>
+         <h1>O Hobbit</h1>
+         <h3>19,90$</h3>
+         <button>compre agora!</button>
+         <button>saiba mais </button>
+      </div>
+      <div>
+         <p> <img src="./catalogo/poder e mkanipal.jpg" alt="Poder e Manipulação"></p>
+         <h1>Poder e Manipulação</h1>
+         <h3>29,99$</h3>
+         <button>compre agora!</button>
+         <button>saiba mais </button>
+      </div>
+      <div>
+         <p> <img src="./catalogo/é assim que acaba.jpg" alt="Poder e Manipulação"></p>
+         <h1>é Assim que Acaba</h1>
+         <h3>15,00$</h3>
+         <button>compre agora!</button>
+         <button>saiba mais </button>
+      </div>
+   </div>
+   
+   <div id="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CLOt5qtzXHY?si=PAXPKGZgyzGkO47b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
 </body>
+<footer>
+   <div>
+      <h2 id="creditos">feito por alexandre alves junior N:2 3MB @alexandre.alves.j</h2>
+   </div>
+</footer>
 </html>

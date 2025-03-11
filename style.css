@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(56, 64, 225);
+    background-image: linear-gradient(#00000001, #00000063);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+ 
+button{
+   border-radius: 25px;
+   
+}
+
+#cabeçalho{
+
+    background-color:rgb(255, 183, 49) ;
+    text-transform: uppercase;
+}
+
+h1{
+
+    font-family: "Bebas Neue", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  nav .logo{
+font-size: 35px;
+color: rgb(255, 251, 19);
+font-weight: bold;
+  }
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+padding: 10px, 20px;
+
+}
+
+  
